@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="人数"
+            android:textColor="@color/colorblack"
+            android:textAppearance="@style/profile_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorwhite">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c6c6c6" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp">
+
+                <Button
+                    android:id="@+id/menber2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="2名"
+                    android:background="@drawable/menber_button"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="8dp"
+                    android:layout_weight="1"
+                    android:layout_marginHorizontal="10dp"
+                    />
+                <Button
+                    android:id="@+id/menber3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="3名"
+                    android:background="@drawable/menber_button"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="8dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    />
+
+                <Button
+                    android:id="@+id/menber4"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="4名"
+                    android:background="@drawable/menber_button"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="8dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    />
+                <Button
+                    android:id="@+id/menber5"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="5名以上"
+                    android:background="@drawable/menber_button"
+                    android:minHeight="0dp"
+                    android:minWidth="0dp"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="8dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    />
+
+            </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="#c6c6c6" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="日にち"
+            android:textColor="@color/colorblack"
+            android:textAppearance="@style/profile_gray" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#c6c6c6" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="#c6c6c6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="時間"
+            android:textColor="@color/colorblack"
+            android:textAppearance="@style/profile_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c6c6c6" />
+
+                <EditText
+                    android:id="@+id/post_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorwhite"
+                    android:text="17：00～"
+                    android:padding="8dp"
+                    />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#c6c6c6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="場所"
+            android:textColor="@color/colorblack"
+            android:textAppearance="@style/profile_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c6c6c6" />
+
+
+            <EditText
+                android:id="@+id/post_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorwhite"
+                android:text="渋谷"
+                android:padding="8dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#c6c6c6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:text="詳細"
+            android:textColor="@color/colorblack"
+            android:textAppearance="@style/profile_gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c6c6c6" />
+
+            <EditText
+                android:id="@+id/post_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorwhite"
+                android:padding="8dp"
+                android:text="しっぽり飲みしたいです。友達は全員女子です。医学部男子希望。"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#c6c6c6" />
+
+            <Button
+                android:id="@+id/post_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="投稿"
+                android:textColor="@color/colorwhite"
+                android:textSize="20sp"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:paddingHorizontal="50dp"
+                android:background="@drawable/send_button_background"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="投稿内容はマイページの投稿履歴から編集・削除できます。"
+            android:textAppearance="@style/caution"
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+</ScrollView>

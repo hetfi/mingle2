@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/mingletheme</item>
+    </style>
+
+    <style name="profile_name" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorwhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#808080</item>
+        <item name="android:shadowDx">1.5</item>
+        <item name="android:shadowDy">1.5</item>
+        <item name="android:shadowRadius">1.5</item>
+    </style>
+
+    <style name="profile_work" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorwhite</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:shadowColor">#808080</item>
+        <item name="android:shadowDx">1.5</item>
+        <item name="android:shadowDy">1.5</item>
+        <item name="android:shadowRadius">1.5</item>
+    </style>
+
+    <style name="name_black" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorblack</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="profile_gray" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorsilver</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="post_black" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorblack</item>
+
+    </style>
+
+    <style name="message_orange" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/mingletheme</item>
+
+    </style>
+
+    <style name="time_gray" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorsilver</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="profile_gray_big" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorsilver</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="caution" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorblack</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>
